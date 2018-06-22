@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		La cucha de Alva
+	</title>
+
+<script type="text/javascript">
+	
+	function myMap() {
+	    var mapOptions = {
+	        center: new google.maps.LatLng(-34.505475, -58.478880),
+	        zoom: 20,
+	        mapTypeId: google.maps.MapTypeId.HYBRID
+	    }
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+	}
+
+</script>
+
+
+</head>
+
+<body>
+
+	<h1> La cucha de Alva </h1>
+
+	<div id="map" style="width: 700px;height: 700px;">My map will go here</div>
+
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+</body>
+
+</html>
