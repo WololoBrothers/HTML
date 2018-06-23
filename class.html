@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Class </title>
+	<style type="text/css">
+		
+		.city{
+			background-color: tomato;
+			color: white;
+			padding: 10px;
+			font-family: sans-serif;
+		}
+
+	</style>
+
+	<script type="text/javascript">
+		
+		function hide(){
+			var x = document.getElementsByClassName("city");
+			for (var i = x.length - 1; i >= 0; i--) {
+				x[i].style.display = "none";
+			}
+		}
+
+	</script>
+
+</head>
+<body>
+	<h2 class="city"> London </h2>
+	<p> Capital of England </p>
+	<input type="button" name="ocultar" value="ocultar" onclick="hide();">
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Forms </title>
+	<style type="text/css">
+		.pagina{
+			font-family: sans-serif;
+		}
+	</style>
+</head>
+<body>
+
+	<form action="action.php" target="_blank" method="post"> 
+		<div class="pagina"> 
+			<h1> Formulario </h1>
+			<fieldset>
+				<legend> Personal info </legend>
+				First name  
+				<input type="text" name="firstname"> <br>
+				Last name 
+				<input type="text" name="lastname"> <br> 
+				Sex 
+				<input type="radio" name="gender" value="male" checked>
+				<input type="radio" name="gender" value="female"> <br> 
+				<input type="submit" name="Procesar">
+			</fieldset>
+		</div>
+	</form>
+
+</body>
+</html>
