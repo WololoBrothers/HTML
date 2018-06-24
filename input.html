@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Inputs </title>
+</head>
+<body>
+	<h1> Login </h1> <br>
+		<form action="action.php">
+		Username: 
+		<input type="text" name="username"> <br>
+		Password:
+		<input type="password" name="pass"> <br>
+
+		<h2>Radio</h2>
+		<input type="radio" name="gender" value="male" checked> Male<br>
+	  	<input type="radio" name="gender" value="female"> Female<br>
+
+	  	<h2>Chekbox</h2>
+		<input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+		<input type="checkbox" name="vehicle2" value="Car"> I have a car <br>
+
+		<h2>Color</h2>
+		<input type="color" name="color">
+
+		<h2>Date</h2>
+		<input type="date" name="date" min="1986-01-01">
+		
+		<h2>Mail</h2>
+		<input type="email" name="mail">
+		
+		<h2>File</h2>
+		<input type="file" name="file">
+		
+		<h2>Numero</h2>
+		<input type="number" name="numero" min="1" max="5">
+
+		<h2> Rango </h2>
+		<input type="range" name="rango" min="1" max="10">
+
+		<h2> Time </h2>
+		<input type="time" name="time">
+
+		<h2> Url </h2>
+		<input type="url" name="url">
+		<br>
+		<input type="button" value="Saludo" onclick="alert('Hola')" name="Saludo"> <br>
+		<input type="reset" name="reset"> <br>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
